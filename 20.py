@@ -13,7 +13,7 @@ class Solution:
                 "]":"[", 
                 ")":"("})
 
-        if len(s) == 1:
+        if len(s) % 2 == 1:
             return False
 
         for i in range(len(s)):
